@@ -1,0 +1,103 @@
+.app__body {
+  padding: 16px;
+  font-size: 12px;
+  .body {
+    &__wrapper {
+      display: flex;
+    }
+    &__profile {
+      flex: 0 0 75%;
+      line-height: 1.5;
+      letter-spacing: 0.5px;
+      &-items {
+        padding-right: 32px;
+        &-highlight {
+          font-style: italic;
+          font-weight: bold;
+          &-desig {
+            font-size: 10px;
+            margin-left: 40px;
+            border-left: 1px solid red;
+            border-right: 1px solid red;
+            padding: 0 20px;
+            margin: 0 20px;
+            display: none;
+          }
+          &-dates {
+            color: #787777;
+            font-size: 10px;
+            margin-left: 16px;
+          }
+        }
+        svg {
+          width: 20px;
+          fill: #fff;
+        }
+        h4 {
+          font-weight: bold;
+          font-size: 16px;
+          text-transform: uppercase;
+          border-bottom: 2px dotted #204976;
+          color: #204976;
+          width: fit-content;
+        }
+        div {
+          display: flex;
+          gap: 10px;
+        }
+      }
+    }
+    &__skills {
+      &-content {
+        margin-top: 60px;
+        &:first-child {
+          margin: 0;
+        }
+      }
+      h4 {
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: uppercase;
+        border-bottom: 2px dotted #204976;
+        color: #204976;
+        width: fit-content;
+      }
+      &-items {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        div {
+          font-size: 14px;
+          border-radius: 4px;
+          color: #fff;
+          margin-bottom: 2px;
+          width: 40px;
+          height: 40px;
+        }
+      }
+      &-assignments {
+        div {
+          font-size: 14px;
+          border-radius: 4px;
+          margin-bottom: 8px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          font-weight: bold;
+          svg {
+            width: 20px;
+            height: 20px;
+            fill: #204976;
+          }
+        }
+        &-info {
+          font-size: 13px;
+          font-style: italic;
+          color: #908d8d;
+          font-weight: normal;
+          display: none;
+        }
+      }
+    }
+  }
+}
