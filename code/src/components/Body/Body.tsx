@@ -1,5 +1,3 @@
-import EXPERIENCES from "../../data/professional-experiences";
-
 const Body = () => {
   return (
     <div className="app__body">
